@@ -1,0 +1,1175 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.update {
+    width: 100%;
+    height: 40px;
+    background-color: #333333;
+    padding: 6px 30px 10px;
+    text-align: center;
+}
+
+.update p {
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Proxima Nova A";
+    margin: 0;
+    display: inline;
+    padding: 0px 5px;
+}
+
+.navi {
+    padding: 0.5% 5%;
+    width: 100%;
+    height: 45px;
+    background-color: #ededed;
+}
+
+ul {
+    list-style: none;
+    float: right;
+    padding: 0;
+    margin: 0 !important;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    padding: 0px 23px;
+    font-size: 14px;
+    color: #333333;
+    font-family: "Proxima Nova A";
+    font-weight: 300;
+}
+
+.navi button {
+    width: 160px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #2ca7fc;
+    border: none;
+    margin: 0px 10px;
+}
+
+.navi img {
+    padding: 0px 10px;
+}
+
+.solution {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    background-color: #ffffff;
+    padding: 0.5% 9% 0.5% 5%;
+}
+
+.solution h6 {
+    display: inline-block;
+    margin: 0;
+}
+
+.solution p {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 15px;
+    color: #333333;
+    font-family: "Proxima Nova A";
+    font-weight: 300;
+    margin: 0;
+}
+
+.sol {
+    float: right;
+}
+
+.solimg {
+    margin: 0px 8px 15px 0px;
+}
+
+.svline {
+    margin: 0px 35px 15px;
+}
+
+.home {
+    background-image: url(../images/background.png);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.home-text {
+    position: absolute;
+    top: 22%;
+    left: 5%;
+}
+
+.home-text h1 {
+    font-size: 43px;
+    color: #333333;
+    font-family: "Playfair Display";
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.home-text h6 {
+    font-size: 14px;
+    color: #333333;
+    font-family: "Proxima Nova A";
+    font-weight: 300;
+    display: inline;
+}
+
+.home-text button {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #2ca7fc;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.help {
+    position: absolute;
+    top: 30%;
+    right: 0;
+}
+
+.help1 {
+    width: 60px;
+    background-color: #2da7fc;
+    text-align: center;
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 6px 0px 0px 6px;
+}
+
+.help a {
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: block;
+    padding-top: 5px;
+}
+
+.help a:hover {
+    text-decoration: none;
+}
+
+.c-indicators {
+    position: absolute;
+    top: 70% !important;
+    left: -83% !important;
+}
+
+.carousel-indicators li {
+    background-color: #b3b6bb !important;
+}
+
+.carousel-indicators .active {
+    background-color: #000000 !important;
+}
+
+ol {
+    margin-bottom: 25px !important;
+}
+
+.why {
+    padding: 8% 4%;
+}
+
+.why-col {
+    padding-top: 50px;
+}
+
+.why h1 {
+    font-size: 43px;
+    color: #333333;
+    font-family: "Playfair Display";
+    font-weight: 400;
+    display: inline;
+}
+
+.why button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(44,167,252,0);
+    border: 1px solid #2ca7fc;
+    font-size: 12px;
+    color: #2ca7fc;
+    font-weight: bold;
+    text-transform: uppercase;
+    float: right;
+    cursor: pointer;
+}
+
+.cards {
+    width: 100%;
+}
+
+.card-img {
+    position: relative;
+}
+
+.text-on {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.card-content {
+    padding: 15px 14px 25px;
+    font-size: 20px;
+    background-color: #f7f7f7;
+}
+
+.card-content p {
+    color: #585858;
+    font-size: 18px;
+}
+
+.hwork {
+    padding: 4% 4% 14%;
+    text-align: center;
+}
+
+.hwork h1 {
+    font-size: 43px;
+    color: #333333;
+    font-family: "Playfair Display";
+    font-weight: 400;
+}
+
+.hwork-text h6 {
+    font-size: 1vw;
+}
+
+.steps {
+    display: flex;
+    text-align: center;
+    width: 70%;
+    position: relative;
+}
+
+.steps h6 {
+    font-size: 1.5vw;
+    color: #333333;
+    font-family: "Playfair Display";
+    font-weight: bold;
+}
+
+.steps p {
+    font-size: 1vw;
+    color: #333333;
+    font-family: "Proxima Nova A";
+    font-weight: 300;
+}
+
+.step1 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.step2 {
+    position: absolute;
+    top: 10%;
+    left: 27%;
+}
+
+.step3 {
+    position: absolute;
+    top: 10%;
+    left: 55%;
+}
+
+.step4 {
+    position: absolute;
+    top: 10%;
+    left: 78%;
+}
+
+.step5 {
+    position: absolute;
+    top: 10%;
+    right: -18%
+}
+
+.step6 {
+    position: absolute;
+    top: 10%;
+    right: -39%;
+}
+
+.new {
+    padding: 8% 4%;
+}
+
+.new-col {
+    padding-top: 30px;
+}
+
+.new h1 {
+    font-size: 43px;
+    color: #333333;
+    font-family: "Playfair Display";
+    font-weight: 400;
+    display: inline;
+}
+
+.new button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(44,167,252,0);
+    border: 1px solid #2ca7fc;
+    font-size: 12px;
+    color: #2ca7fc;
+    font-weight: bold;
+    text-transform: uppercase;
+    float: right;
+    cursor: pointer;
+}
+
+.card-new {
+    width: 100%;
+    height: 380px;
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 50px;
+}
+
+.card-new img {
+    margin-bottom: 60px;
+}
+
+.card-new h5 {
+    font-size: 14px;
+    color: #2f2f2f;
+    font-family: "Playfair Display";
+    font-weight: bold;
+    margin: 0;
+}
+
+.card-new h6 {
+    font-size: 14px;
+    color: #2f2f2f;
+    font-family: "Proxima Nova A";
+    font-weight: 300;
+    margin: 0;
+}
+
+.card-m {
+    width: 100%;
+    height: 380px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #000000;
+}
+
+.card-m h5 {
+    font-size: 14px;
+    color: #2f2f2f;
+    font-family: "Playfair Display";
+    font-weight: bold;
+    margin: 0;
+}
+
+.card-m h6 {
+    font-size: 14px;
+    color: #2f2f2f;
+    font-family: "Proxima Nova A";
+    font-weight: 300;
+    margin: 0;
+}
+
+.card-m img {
+    margin: 30px 10px 30px;
+}
+
+.join {
+    padding: 4% 4% 8%;
+    text-align: center;
+}
+
+.col-text h1 {
+    font-size: 43px;
+    color: #2f2f2f;
+    font-family: "Playfair Display";
+    font-weight: 400;
+    text-align: left;
+}
+
+.col-text h5 {
+    font-size: 18px;
+    color: #2f2f2f;
+    font-family: "Playfair Display";
+    font-weight: bold;
+    padding-top: 13%;
+}
+
+.col-text h4 {
+    width: 59%;
+    height: 190px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    font-family: "Proxima Nova A";
+    font-weight: 300;
+    margin: auto;
+    padding-top: 8%;
+    margin-bottom: 11%;
+}
+
+.col-text button {
+    width: 190px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #2ca7fc;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.col-text h3 {
+    font-size: 14px;
+    color: #333333;
+    font-family: "Proxima Nova A";
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+.offer {
+    padding: 6% 4%;
+}
+
+.offer-col {
+    padding-top: 30px;
+}
+
+.offer h1 {
+    font-size: 43px;
+    color: #2f2f2f;
+    font-family: "Playfair Display";
+    font-weight: 400;
+    text-align: center;
+}
+
+.offer1 {
+    background-image: url(../images/offerbg1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 240px;
+    padding: 20px 0px 20px 20px;
+}
+
+.offer1 h6 {
+    display: inline;
+    font-size: 14px;
+    color: #2f2f2f;
+    font-family: "Proxima Nova A";
+    font-weight: 300;
+}
+
+.offer1 button {
+    width: 70px;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #08b4ab;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.offer1 p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Playfair Display";
+    font-weight: 400;
+    padding-top: 25px;
+}
+
+.offer1 h5 {
+    font-size: 18px;
+    color: #2f2f2f;
+    font-family: "Proxima Nova A";
+    font-weight: bold;
+}
+
+.offer1 h4 {
+    font-size: 12px;
+    color: #ffffff;
+    font-family: "Proxima Nova A";
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline;    
+}
+
+.offer2 {
+    background-image: url(../images/offerbg2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 240px;
+    padding: 20px 0px 20px 20px;
+}
+
+.offer2 h6 {
+    display: inline;
+    font-size: 14px;
+    color: #2f2f2f;
+    font-family: "Proxima Nova A";
+    font-weight: 300;
+}
+
+.offer2 button {
+    width: 70px;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+    font-size: 12px;
+    color: #333333;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.offer2 p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+    font-family: "Playfair Display";
+    font-weight: 400;
+    padding-top: 25px;
+}
+
+.offer2 h5 {
+    font-size: 18px;
+    color: #2f2f2f;
+    font-family: "Proxima Nova A";
+    font-weight: bold;
+}
+
+.offer2 h4 {
+    font-size: 12px;
+    color: #ffffff;
+    font-family: "Proxima Nova A";
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline;    
+}
+
+.offer3 {
+    background-image: url(../images/offerbg3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 240px;
+    padding: 20px 0px 20px 20px;
+}
+
+.offer3 h6 {
+    display: inline;
+    font-size: 14px;
+    color: #2f2f2f;
+    font-family: "Proxima Nova A";
+    font-weight: 300;
+}
+
+.offer3 button {
+    width: 70px;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #e9892f;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.offer3 p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Playfair Display";
+    font-weight: 400;
+    padding-top: 25px;
+}
+
+.offer3 h5 {
+    font-size: 18px;
+    color: #2f2f2f;
+    font-family: "Proxima Nova A";
+    font-weight: bold;
+}
+
+.offer3 h4 {
+    font-size: 12px;
+    color: #ffffff;
+    font-family: "Proxima Nova A";
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline;    
+}
+
+.testi {
+    padding: 8% 4%;
+}
+
+.testi-col {
+    padding-top: 20px;
+}
+
+.testi h1 {
+    font-size: 43px;
+    color: #2f2f2f;
+    font-family: "Playfair Display";
+    font-weight: 400;
+    text-align: center;
+}
+
+.testi-card {
+    width: 100%;
+}
+
+.tcard-content {
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+.tcard-content h4 {
+    display: inline;
+    color: #585858;
+    font-size: 23px;
+}
+
+.testi-card h5 {
+    float: right;
+    color: #cecece;
+    font-size: 15px;
+}
+
+.testi-card h6 {
+    color: #b9b9b9;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.testi-card p {
+    color: #333333;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.blog {
+    padding: 5% 4%;
+}
+
+.blog-col {
+    padding-top: 30px;
+}
+
+.blog h1 {
+    font-size: 43px;
+    color: #2f2f2f;
+    font-family: "Playfair Display";
+    font-weight: 400;
+}
+
+.blog-card {
+    width: 100%;
+    position: relative;
+}
+
+.blog-card button {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    background-color: #2ca6fc;
+    color: #ffffff;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.bcard-content {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.bcard-content h5 {
+    color: #5a5a5a;
+}
+
+.bcard-content h6 {
+    color: #c4c1c1;
+}
+
+.bcard-content p {
+    color: #333333;
+}
+
+.download {
+    padding: 0% 4% 6%;
+}
+
+.download p {
+    margin-bottom: 28px;
+}
+
+.dlrow {
+    text-align: center;
+}
+
+.dlcolumn {
+    margin-top: 20px;
+    padding: 40px; 
+    background-color: #ffffff;
+}
+
+.dlcolumn img {
+    margin: 10px;
+}
+
+.info {
+    padding: 8% 4% 2%;
+}
+
+.navlink a {
+    display: block;
+    font-size: 15px;
+    line-height: 30px;
+    color: #2f2f2f;
+    font-family: "Playfair Display";
+    font-weight: bold;
+}
+
+.product h6 {
+    font-size: 15px;
+    line-height: 30px;
+    color: #2f2f2f;
+    font-family: "Playfair Display";
+    font-weight: bold;
+}
+
+.product p {
+    font-size: 14px;
+    line-height: 30px;
+    color: #2f2f2f;
+    font-family: "Proxima Nova A";
+    font-weight: 300;
+}
+
+.contact h6 {
+    font-size: 15px;
+    line-height: 30px;
+    color: #2f2f2f;
+    font-family: "Playfair Display";
+    font-weight: bold;
+}
+
+.contact img {
+    float: left;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.email {
+    padding: 5px 0px 22px;
+}
+
+.email p {
+    font-size: 14px;
+    line-height: 23px;
+    color: #2f2f2f;
+    font-family: "Proxima Nova A";
+    font-weight: 300;
+    margin: 0;
+}
+
+.p2 {
+    color: #bababa !important;
+    font-size: 13px; 
+    padding-left: 28px;
+}
+
+.address {
+    padding: 5px 0px 28px;
+}
+
+.address p {
+    font-size: 14px;
+    line-height: 23px;
+    color: #2f2f2f;
+    font-family: "Proxima Nova A";
+    font-weight: 300;
+    margin: 0;
+}
+
+.p3 {
+    color: #bababa !important; 
+    font-size: 13px;
+    padding-left: 26px;
+    margin: 0;
+}
+
+.callfaxmailp {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.news h6 {
+    font-size: 15px;
+    line-height: 30px;
+    color: #2f2f2f;
+    font-family: "Proxima Nova A";
+    font-weight: 300;
+    font-weight: bold;
+    margin-bottom: 11px;
+}
+
+.news p {
+    font-size: 14px;
+    color: #2f2f2f;
+    font-family: "Proxima Nova A";
+    font-weight: 300;
+}
+
+.news input {
+    width: 290px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #f7f7f7;
+    border: none;
+    padding: 3px 5px 6px 30px;
+    margin-top: 18px;
+}
+
+.news input::placeholder {
+    font-size: 13px;
+    line-height: 40px;
+    color: #2f2f2f;
+    font-family: "Proxima Nova A";
+    font-weight: 300;
+    color: #bababa;
+}
+
+.news button {
+    width: 121px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #2ca7fc;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.footer {
+    padding: 1% 5%;
+}
+
+.footer p {
+    font-size: 12px;
+    line-height: 40px;
+    color: #2f2f2f;
+    font-family: "Proxima Nova A";
+    font-weight: 300;
+    display: inline;
+}
+
+.flinks {
+    float: right;
+}
+
+.flinks a {
+    font-size: 12px;
+    line-height: 40px;
+    color: #2f2f2f;
+    font-family: "Proxima Nova A";
+    font-weight: 300;
+}
+
+.flinks img {
+    padding: 0px 5px;
+}
+
+
+
+
+
+@media (max-width: 1090px) {
+    .navi {
+        height: 90px;
+        padding: 2% 5%;
+    }
+    
+    ul li a {
+        padding: 0px 12px;
+    }
+    
+    .navi button {
+        margin: 0px 5px;
+    }
+    
+    .navi img {
+        padding: 0px 5px;
+    }
+    
+    .solution {
+        height: 152px;
+        padding: 2% 9% 2% 5%;
+    }
+    
+    .solimg {
+        margin: 0px 8px 15px 0px;
+    }
+    
+    .svline {
+        margin: 0px 12px 15px;
+    }
+
+    .c-indicators {
+        position: absolute;
+        top: 50% !important;
+        left: -75% !important;
+    }
+
+    .col-text h1 {
+        font-size: 40px;
+    }
+    
+    .col-text h5 {
+        padding-top: 20px;
+    }
+    
+    .col-text h4 {
+        width: 80%;
+        height: 180px;
+        padding-top: 8%;
+        margin-bottom: 0%;
+    }
+
+    .testi-card h5 {
+        float: none;
+    }
+
+    .flinks {
+        float: none;
+    }
+
+    .news input {
+        width: 145px;
+        padding: 3px 5px 6px 20px;
+    }
+    
+    .news button {
+        width: 110px;
+        height: 30px;
+    }
+
+    .contact img {
+        float: none;
+    }
+
+    .p2 {
+        padding-left: 0px;
+        word-break: break-all;
+    }
+
+    .p3 {
+        padding-left: 0px;
+    }
+}
+
+
+
+
+@media (max-width: 767px) {
+    .update {
+        padding: 6px 15px 10px;
+        text-align: left;
+    }
+
+    .update p {
+        padding: 0px;
+    }
+
+    .navi {
+        padding: 3% 5%;
+        height: 270px;
+    }
+
+    ul {
+        padding: 10px 0px;
+        float: none;
+    }
+    
+    ul li {
+        display: block;
+        padding: 5px 0px;
+    }
+
+    ul li a {
+        padding: 0;
+    }
+    
+    .navi button {
+        width: 150px;
+        margin: 10px;
+    }
+    
+    .navi img {
+        padding: 0px 4px;
+    }
+
+    .solution {
+        height: 300px;
+    }
+    
+    .sol {
+        float: none;
+    }
+
+    .msol span {
+        display: inline-block;
+        width: 135px;
+    }
+    
+    .solimg {
+        margin: 0px 8px 15px 0px;
+    }
+    
+    .svline {
+        display: none;
+    }
+
+    .c-indicators {
+        position: absolute;
+        top: 65% !important;
+        left: -55% !important;
+    }
+
+    .home-text {
+        position: absolute;
+        top: 10%;
+        left: 5%;
+    }
+
+    .help {
+        position: absolute;
+        top: 40%;
+        right: 0;
+    }
+
+    .why h1 {
+        font-size: 32px;
+    }
+
+    .why button {
+        width: 100px;
+        height: 28px;   
+        margin-top: 5px;
+    }
+    
+    .hwork h1 {
+        font-size: 31px;
+    }
+
+    .new h1 {
+        font-size: 30px;
+    }
+
+    .new button {
+        width: 100px;
+        height: 28px;   
+        margin-top: 5px;
+    }
+
+    .col-text h1 {
+        font-size: 36px;
+    }
+
+    .img-pad {
+        padding-top: 20px;
+    }
+
+    .offer {
+        padding: 6% 4% 20%;
+    }
+
+    .download h1 {
+        padding-top: 20px;
+    }
+
+    .info-column {
+        padding-top: 15%;
+    }
+
+    .contact img {
+        float: left;
+    }
+
+    .p2 {
+        padding-left: 28px;
+    }
+
+    .p3 {
+        padding-left: 26px;
+    }
+
+    .news input {
+        width: 256px;
+    }
+
+    .footer {
+        padding: 3% 5%;
+        height: 150px;
+    }
+
+    .flinks {
+        float: left;
+    }
+
+    .footer p {
+        line-height: 20px;
+    }
+
+    .flinks a {
+        line-height: 20px;
+    }
+}

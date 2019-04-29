@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -243,6 +247,7 @@ ol {
     color: #ffffff;
     font-size: 20px;
     font-family: serif;
+    text-align: center;
 }
 
 .card-content {
@@ -986,9 +991,13 @@ ol {
         margin: 0px 12px 15px;
     }
 
+    .home {
+        height: 70vh;
+    }
+
     .c-indicators {
         position: absolute;
-        top: 50% !important;
+        top: 80% !important;
         left: -75% !important;
     }
 
@@ -1109,9 +1118,13 @@ ol {
         display: none;
     }
 
+    .home {
+        height: 100vh;
+    }
+
     .c-indicators {
         position: absolute;
-        top: 65% !important;
+        top: 70% !important;
         left: -55% !important;
     }
 

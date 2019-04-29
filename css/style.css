@@ -68,6 +68,14 @@ ul li a:hover {
     cursor: pointer;
 }
 
+.navi button:hover { 
+    background-color: #0d72c0;
+}
+
+.navi button:focus {
+    outline: 0;
+}
+
 .navi img {
     padding: 0px 10px;
 }
@@ -155,6 +163,14 @@ ul li a:hover {
     cursor: pointer;
 }
 
+.home-text button:hover { 
+    background-color: #0d72c0;
+}
+
+.home-text button:focus {
+    outline: 0;
+}
+
 .help {
     position: absolute;
     top: 30%;
@@ -229,6 +245,15 @@ ol {
     text-transform: uppercase;
     float: right;
     cursor: pointer;
+}
+
+.why button:hover { 
+    background-color: #0d72c0;
+    color: #ffffff;
+}
+
+.why button:focus {
+    outline: 0;
 }
 
 .cards {
@@ -363,6 +388,15 @@ ol {
     cursor: pointer;
 }
 
+.new button:hover { 
+    background-color: #0d72c0;
+    color: #ffffff;
+}
+
+.new button:focus {
+    outline: 0;
+}
+
 .card-new {
     width: 100%;
     height: 380px;
@@ -467,6 +501,14 @@ ol {
     cursor: pointer;
 }
 
+.col-text button:hover { 
+    background-color: #0d72c0;
+}
+
+.col-text button:focus {
+    outline: 0;
+}
+
 .col-text h3 {
     font-size: 14px;
     color: #333333;
@@ -517,6 +559,14 @@ ol {
     color: #ffffff;
     font-weight: bold;
     cursor: pointer;
+}
+
+.offer1 button:hover { 
+    background-color: #0d72c0;
+}
+
+.offer1 button:focus {
+    outline: 0;
 }
 
 .offer1 p {
@@ -571,6 +621,15 @@ ol {
     cursor: pointer;
 }
 
+.offer2 button:hover { 
+    background-color: #0d72c0;
+    color: #ffffff;
+}
+
+.offer2 button:focus {
+    outline: 0;
+}
+
 .offer2 p {
     font-size: 19px;
     line-height: 24px;
@@ -621,6 +680,14 @@ ol {
     color: #ffffff;
     font-weight: bold;
     cursor: pointer;
+}
+
+.offer3 button:hover { 
+    background-color: #0d72c0;
+}
+
+.offer3 button:focus {
+    outline: 0;
 }
 
 .offer3 p {
@@ -728,6 +795,10 @@ ol {
     border: none;
     border-radius: 15px;
     cursor: pointer;
+}
+
+.blog-card button:focus {
+    outline: 0;
 }
 
 .bcard-content {
@@ -913,6 +984,10 @@ ol {
     color: #bababa;
 }
 
+.news input:focus {
+    outline: 0;
+}
+
 .news button {
     width: 121px;
     height: 40px;
@@ -925,6 +1000,14 @@ ol {
     text-transform: uppercase;
     cursor: pointer;
     margin-top: 10px;
+}
+
+.news button:hover { 
+    background-color: #0d72c0;
+}
+
+.news button:focus {
+    outline: 0;
 }
 
 .footer {

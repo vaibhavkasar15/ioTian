@@ -199,11 +199,14 @@ ul li a:hover {
     text-decoration: none;
 }
 
+.carousel-indicators {
+    cursor: pointer;
+}
+
 .c-indicators {
     position: absolute;
     top: 70% !important;
     left: -83% !important;
-    cursor: pointer;
 }
 
 .carousel-indicators li {
